@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy</title>
+
+    <style>
+        .producto {
+            width: 250px;
+            border: 1px solid;
+            color: gray;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .producto img {
+            width: 250px;
+            height: 250px;
+        }
+
+        .container-desc {
+            display: flex;
+        }
+
+        .descuento {
+            background-color: blue;
+            width: 50px;
+            height: 30px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            padding-top: 5px;
+            margin-left: 10px;
+        }
+
+        .precio-desc {
+            font-size: 15px;
+            margin-left: 15px;
+            margin-top: 10px;
+            text-decoration: line-through;
+        }
+
+        .carrito {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: orange;
+            border-radius: 15px;
+            width: 230px;
+            height: 45px;
+            text-align: center;
+            font-size: 16px;
+            margin-left: 10px;
+            margin-top: 50px;
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        .precio {
+            font-size: 23px;
+            margin-left: 10px;
+        }
+
+        .linea {
+            border-bottom: 1px solid gray;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .like {
+            display: flex;
+            justify-content: end;
+            margin-right: 20px;
+            margin-top: 5px;
+        }
+
+        .like img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .cuotas {
+            position: absolute;
+            top: 100px;
+            left: 20px;
+        }
+        .cuotas img {
+            width: 60px;
+            height: 50px;
+        }
+        .ojo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+        }
+        .vista {
+            display: flex;
+            align-items: center;
+            background-color: gray;
+            border-radius: 15px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        .producto:hover .ojo {
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="producto">
+        <div class="like">
+            <img src="dislike.png" alt="like">
+        </div>
+        <img src="Producto.webp" alt="Sierra">
+        <div class="ojo">
+            <div class="vista">
+                <img src="visible.png" style="width: 30px; height: 20px;" alt="Vista">
+                <a href="https://www.easy.com.ar/sierra-circular-bosch-gks150-1500w-bols/p">Vista rapida</a>
+            </div>
+        </div>
+        <div>
+            <div class="cuotas">
+                <img src="cuotas.jpg" alt="Cuotas">
+            </div>
+        </div>
+        <div class="linea"></div>
+        <p style="margin-left: 10px;"><b>Bosch</b></p>
+        <p style="margin-left: 10px;">Sierra Circular Gks 150 Mas Bolsa 220V Bosch</p>
+        <div class="container-desc">
+            <div class="descuento">
+                <span>-15%</span>
+            </div>
+            <div class="precio-desc">
+                <span>$235.505</span>
+            </div>
+        </div>
+        <span class="precio"> <b>$200.179,25</b> </span>
+        <div class="carrito">
+            <p>Agregar al carrito</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
